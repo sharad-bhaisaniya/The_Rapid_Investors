@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Cache;
 
 class AngelController extends Controller
 {
+
+
+// angle authentications...
     public function login(AngelOneService $angel): JsonResponse
     {
         try {
